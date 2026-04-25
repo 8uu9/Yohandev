@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Yohan — Full Stack Developer turning ideas into reality. Building digital experiences that are fast, beautiful, and functional." />
+    <meta name="theme-color" content="#0a0a14" />
+    <meta name="author" content="Yohan" />
+    <meta name="keywords" content="full stack developer, web developer, React, Node.js, Python, freelance developer, Yohan" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Yohan — Full Stack Developer" />
+    <meta property="og:description" content="Turning ideas into reality. Modern, fast, and beautiful digital experiences." />
+    <meta property="og:image" content="./avatar.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Yohan — Full Stack Developer" />
+    <meta name="twitter:description" content="Turning ideas into reality. Modern, fast, and beautiful digital experiences." />
+    <meta name="twitter:image" content="./avatar.png" />
+
+    <title>Yohan — Full Stack Developer</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%234f46e5'/%3E%3Ctext x='50' y='66' font-family='Inter,sans-serif' font-size='52' font-weight='700' text-anchor='middle' fill='white'%3EY%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="preloader-logo">
+        <span class="preloader-mark">Y</span>
+      </div>
+      <div class="preloader-bar"><div class="preloader-fill"></div></div>
+    </div>
+
+    <div class="bg-glow"></div>
+    <div class="bg-grid"></div>
+    <div class="bg-noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header class="navbar">
+      <a href="#" class="logo">
+        <span class="logo-mark">Y</span>
+        <span>Yohan</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#projects">Projects</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#packages">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="https://discord.com/users/_7j" target="_blank" rel="noopener noreferrer" class="btn btn-primary nav-cta">Hire Me</a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <div class="badge fade-up">
+            <span class="badge-dot"></span> AVAILABLE FOR NEW PROJECTS
+          </div>
+
+          <h1 class="hero-title fade-up delay-1">
+            Yohan<br />
+            Turning ideas<br />
+            <span class="gradient-text">into reality</span>
+          </h1>
+
+          <p class="hero-sub fade-up delay-2">
+            <span id="typed"></span><span class="caret">|</span>
+          </p>
+
+          <div class="stats fade-up delay-3">
+            <div class="stat">
+              <div class="stat-num" data-target="7">0+</div>
+              <div class="stat-label">Years</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <div class="stat-num" data-target="50">0+</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <div class="stat-num" data-target="20">0+</div>
+              <div class="stat-label">Clients</div>
+            </div>
+          </div>
+
+          <div class="cta-row fade-up delay-4">
+            <a href="#projects" class="btn btn-primary">
+              View Work
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#about" class="btn btn-ghost">Learn More</a>
+          </div>
+
+          <div class="socials fade-up delay-5">
+            <a href="https://discord.com/users/_7j" target="_blank" rel="noopener noreferrer" class="social discord">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+              <span>Discord · _7j</span>
+            </a>
+          </div>
+
+          <div class="scroll-cue fade-up delay-5" aria-hidden="true">
+            <span class="mouse"><span class="wheel"></span></span>
+            <small>Scroll</small>
+          </div>
+        </div>
+
+        <div class="hero-visual fade-in">
+          <div class="blob-frame" data-tilt>
+            <img src="./avatar.png" alt="Yohan portrait" class="avatar-img" />
+            <div class="orbit-tag tag-react">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              React
+            </div>
+            <div class="orbit-tag tag-python">
+              <span class="tag-dot py">●</span> Python
+            </div>
+            <div class="orbit-tag tag-node">
+              <span class="tag-dot node">node</span> Node.js
+            </div>
+            <div class="orbit-tag tag-ts">
+              <span class="tag-dot ts">TS</span> TypeScript
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-head">
+          <span class="eyebrow">ABOUT ME</span>
+          <h2>Crafting digital products with care.</h2>
+          <p>
+            I'm a full stack developer with a passion for building polished
+            products. From clean APIs to delightful interfaces, I love every
+            layer of the stack.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <h3>Clean Code</h3>
+            <p>Readable, maintainable, and testable. Code is communication first, instructions second.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+            </div>
+            <h3>On Time</h3>
+            <p>Predictable delivery with regular check-ins. No surprises, just steady progress.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            </div>
+            <h3>Pixel Perfect</h3>
+            <p>I obsess over the details. Spacing, motion, and interaction are first-class citizens.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            </div>
+            <h3>Always Listening</h3>
+            <p>I treat your business like my own. Honest feedback in, great products out.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="section-head">
+          <span class="eyebrow">WHAT I DO</span>
+          <h2>Services tailored to your goals.</h2>
+          <p>From idea to launch — I cover the entire product lifecycle.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-num">01</div>
+            <h3>Web Development</h3>
+            <p>
+              Modern, fast, accessible websites and web apps. Built with
+              React, Next.js, and the latest web standards.
+            </p>
+            <ul class="service-list">
+              <li>Single page apps</li>
+              <li>Server-side rendering</li>
+              <li>API integration</li>
+            </ul>
+          </article>
+          <article class="service-card service-card-feature">
+            <div class="service-num">02</div>
+            <h3>Full Stack Apps</h3>
+            <p>
+              End-to-end products with database design, secure APIs, and
+              smooth front-end experiences.
+            </p>
+            <ul class="service-list">
+              <li>Auth &amp; payments</li>
+              <li>PostgreSQL / MongoDB</li>
+              <li>Cloud deployment</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="service-num">03</div>
+            <h3>UI / UX Design</h3>
+            <p>
+              Interfaces that are clear, beautiful, and a joy to use. Design
+              systems that scale with your team.
+            </p>
+            <ul class="service-list">
+              <li>Design systems</li>
+              <li>Prototyping</li>
+              <li>Brand identity</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-head">
+          <span class="eyebrow">SKILLS &amp; TOOLS</span>
+          <h2>The stack I love working with.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill"><span>React</span></div>
+          <div class="skill"><span>Next.js</span></div>
+          <div class="skill"><span>TypeScript</span></div>
+          <div class="skill"><span>Node.js</span></div>
+          <div class="skill"><span>Python</span></div>
+          <div class="skill"><span>PostgreSQL</span></div>
+          <div class="skill"><span>Tailwind CSS</span></div>
+          <div class="skill"><span>Docker</span></div>
+          <div class="skill"><span>AWS</span></div>
+          <div class="skill"><span>GraphQL</span></div>
+          <div class="skill"><span>Figma</span></div>
+          <div class="skill"><span>Git</span></div>
+        </div>
+      </section>
+
+      <section id="process" class="section">
+        <div class="section-head">
+          <span class="eyebrow">HOW I WORK</span>
+          <h2>A process built for clarity.</h2>
+          <p>Four simple steps from first hello to a shipped product.</p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card">
+            <div class="process-step">01</div>
+            <div class="process-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            </div>
+            <h3>Discover</h3>
+            <p>We talk through goals, audience, and constraints. I ask the right questions early.</p>
+          </article>
+          <article class="process-card">
+            <div class="process-step">02</div>
+            <div class="process-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+            </div>
+            <h3>Design</h3>
+            <p>I sketch flows, then build polished mockups so we can see the product before we build it.</p>
+          </article>
+          <article class="process-card">
+            <div class="process-step">03</div>
+            <div class="process-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <h3>Build</h3>
+            <p>Modern tooling, regular check-ins, and clean code that won't haunt you a year later.</p>
+          </article>
+          <article class="process-card">
+            <div class="process-step">04</div>
+            <div class="process-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </div>
+            <h3>Launch</h3>
+            <p>We ship, measure, and iterate. The launch is the start, not the finish line.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="marquee-section" aria-label="Tech stack">
+        <div class="marquee">
+          <div class="marquee-track" id="marqueeTrack">
+            <span>React</span><span>·</span>
+            <span>Next.js</span><span>·</span>
+            <span>TypeScript</span><span>·</span>
+            <span>Node.js</span><span>·</span>
+            <span>Python</span><span>·</span>
+            <span>PostgreSQL</span><span>·</span>
+            <span>Tailwind</span><span>·</span>
+            <span>Docker</span><span>·</span>
+            <span>AWS</span><span>·</span>
+            <span>GraphQL</span><span>·</span>
+            <span>Figma</span><span>·</span>
+            <span>Vite</span><span>·</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" class="section section-tight">
+        <div class="achievements-grid">
+          <div class="achv-card">
+            <div class="achv-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"></circle><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path></svg>
+            </div>
+            <div>
+              <strong>Top Rated Plus</strong>
+              <small>Upwork · 2026</small>
+            </div>
+          </div>
+          <div class="achv-card">
+            <div class="achv-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"></path><path d="m2 17 10 5 10-5"></path><path d="m2 12 10 5 10-5"></path></svg>
+            </div>
+            <div>
+              <strong>AWS Certified</strong>
+              <small>Solutions Architect</small>
+            </div>
+          </div>
+          <div class="achv-card">
+            <div class="achv-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <div>
+              <strong>5.0 Rating</strong>
+              <small>50+ reviews</small>
+            </div>
+          </div>
+          <div class="achv-card">
+            <div class="achv-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            </div>
+            <div>
+              <strong>24h Reply</strong>
+              <small>Avg. response time</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-head">
+          <span class="eyebrow">JOURNEY</span>
+          <h2>A short version of my path.</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-meta">2025 — Now</div>
+            <h3>Senior Full Stack Engineer</h3>
+            <p>Leading product engineering across web platforms — from architecture to shipped features.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-meta">2023 — 2025</div>
+            <h3>Full Stack Developer · Freelance</h3>
+            <p>Designed and built end-to-end products for startups across SaaS, e-commerce, and mobile.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-meta">2021 — 2023</div>
+            <h3>Frontend Developer</h3>
+            <p>Built and maintained complex React apps with a focus on performance, accessibility, and craft.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-meta">2019</div>
+            <h3>Started Coding Professionally</h3>
+            <p>Fell in love with the web — and never stopped building.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-head">
+          <span class="eyebrow">SELECTED WORK</span>
+          <h2>Recent projects.</h2>
+          <p>A small selection of recent things I've shipped.</p>
+        </div>
+
+        <div class="projects-filter" role="tablist">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="ecom">E-Commerce</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-category="web">
+            <div class="project-thumb">
+              <img src="./project-1.png" alt="Nimbus Analytics dashboard" />
+              <div class="project-overlay">
+                <a href="#" class="overlay-btn">View Project →</a>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">SaaS · Web</span>
+              <h3>Nimbus Analytics</h3>
+              <p>Real-time analytics dashboard for product teams, built with React and Node.</p>
+              <div class="tech-stack">
+                <span>React</span><span>Node.js</span><span>PostgreSQL</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="mobile">
+            <div class="project-thumb">
+              <img src="./project-2.png" alt="Voyage Travel app" />
+              <div class="project-overlay">
+                <a href="#" class="overlay-btn">View Project →</a>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Mobile · iOS / Android</span>
+              <h3>Voyage Travel</h3>
+              <p>Cross-platform travel companion app with offline maps and AI itineraries.</p>
+              <div class="tech-stack">
+                <span>React Native</span><span>Expo</span><span>OpenAI</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="ecom">
+            <div class="project-thumb">
+              <img src="./project-3.png" alt="Lumen Store e-commerce" />
+              <div class="project-overlay">
+                <a href="#" class="overlay-btn">View Project →</a>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">E-Commerce</span>
+              <h3>Lumen Store</h3>
+              <p>Headless commerce experience with custom checkout and lightning-fast PDPs.</p>
+              <div class="tech-stack">
+                <span>Next.js</span><span>Shopify</span><span>Stripe</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <div class="section-head">
+          <span class="eyebrow">KIND WORDS</span>
+          <h2>What clients say.</h2>
+        </div>
+
+        <div class="testimonials" id="testimonials">
+          <div class="testimonial-track" id="testimonialTrack">
+            <article class="testimonial">
+              <div class="quote-mark">"</div>
+              <p class="testimonial-text">
+                Yohan delivered beyond what we asked for. The product looks
+                gorgeous and just works. Easily the best dev I've worked with.
+              </p>
+              <div class="testimonial-author">
+                <div class="author-avatar">SM</div>
+                <div>
+                  <strong>Sara Malik</strong>
+                  <small>Founder · Northwind Studio</small>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial">
+              <div class="quote-mark">"</div>
+              <p class="testimonial-text">
+                The attention to detail is unreal. Yohan turned our messy
+                ideas into a clean, scalable product in record time.
+              </p>
+              <div class="testimonial-author">
+                <div class="author-avatar">DK</div>
+                <div>
+                  <strong>David Kim</strong>
+                  <small>CTO · Pulse Health</small>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial">
+              <div class="quote-mark">"</div>
+              <p class="testimonial-text">
+                Communication was effortless and the quality was top-tier.
+                I'd happily hire him again — and probably will.
+              </p>
+              <div class="testimonial-author">
+                <div class="author-avatar">AR</div>
+                <div>
+                  <strong>Aisha Rahman</strong>
+                  <small>Product Lead · Drift</small>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="testimonial-controls">
+            <button class="t-btn" id="tPrev" aria-label="Previous">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <div class="testimonial-dots" id="tDots"></div>
+            <button class="t-btn" id="tNext" aria-label="Next">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="packages" class="section">
+        <div class="section-head">
+          <span class="eyebrow">PACKAGES</span>
+          <h2>Pricing that scales with you.</h2>
+          <p>Simple, transparent tiers. Custom quotes for bigger ideas.</p>
+        </div>
+
+        <div class="packages-grid">
+          <article class="pkg-card">
+            <div class="pkg-head">
+              <span class="pkg-name">Starter</span>
+              <span class="pkg-tag">Best for landing pages</span>
+            </div>
+            <div class="pkg-price">
+              <span class="pkg-currency">$</span><span class="pkg-amount">499</span>
+              <span class="pkg-period">/ project</span>
+            </div>
+            <ul class="pkg-list">
+              <li><span class="pkg-check">✓</span> 1–3 page responsive site</li>
+              <li><span class="pkg-check">✓</span> Custom design</li>
+              <li><span class="pkg-check">✓</span> Basic SEO setup</li>
+              <li><span class="pkg-check">✓</span> 7-day delivery</li>
+              <li class="pkg-muted"><span class="pkg-x">–</span> CMS / dashboard</li>
+              <li class="pkg-muted"><span class="pkg-x">–</span> Backend / database</li>
+            </ul>
+            <a href="https://discord.com/users/_7j" target="_blank" rel="noopener noreferrer" class="btn btn-ghost pkg-cta">Get Started</a>
+          </article>
+
+          <article class="pkg-card pkg-featured">
+            <div class="pkg-ribbon">Most Popular</div>
+            <div class="pkg-head">
+              <span class="pkg-name">Pro</span>
+              <span class="pkg-tag">Best for SaaS &amp; web apps</span>
+            </div>
+            <div class="pkg-price">
+              <span class="pkg-currency">$</span><span class="pkg-amount">1,499</span>
+              <span class="pkg-period">/ project</span>
+            </div>
+            <ul class="pkg-list">
+              <li><span class="pkg-check">✓</span> Full stack web app</li>
+              <li><span class="pkg-check">✓</span> Auth, database &amp; APIs</li>
+              <li><span class="pkg-check">✓</span> Admin dashboard</li>
+              <li><span class="pkg-check">✓</span> Cloud deployment</li>
+              <li><span class="pkg-check">✓</span> 30-day support</li>
+              <li><span class="pkg-check">✓</span> 2–4 week delivery</li>
+            </ul>
+            <a href="https://discord.com/users/_7j" target="_blank" rel="noopener noreferrer" class="btn btn-primary pkg-cta">Get Started</a>
+          </article>
+
+          <article class="pkg-card">
+            <div class="pkg-head">
+              <span class="pkg-name">Custom</span>
+              <span class="pkg-tag">Best for ambitious products</span>
+            </div>
+            <div class="pkg-price">
+              <span class="pkg-amount pkg-amount-text">Let's talk</span>
+            </div>
+            <ul class="pkg-list">
+              <li><span class="pkg-check">✓</span> Everything in Pro</li>
+              <li><span class="pkg-check">✓</span> Mobile apps (iOS / Android)</li>
+              <li><span class="pkg-check">✓</span> AI integrations</li>
+              <li><span class="pkg-check">✓</span> Dedicated weekly hours</li>
+              <li><span class="pkg-check">✓</span> Priority support</li>
+              <li><span class="pkg-check">✓</span> Long-term partnership</li>
+            </ul>
+            <a href="https://discord.com/users/_7j" target="_blank" rel="noopener noreferrer" class="btn btn-ghost pkg-cta">Book a Call</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="section-head">
+          <span class="eyebrow">FAQ</span>
+          <h2>Questions, answered.</h2>
+          <p>The things people ask me most often.</p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>
+              <span>How long does a typical project take?</span>
+              <span class="faq-arrow" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-body">
+              <p>Most websites take 2–4 weeks. Full apps usually run 6–12 weeks depending on scope. I share a clear timeline before we start.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span>Do you work with teams or just solo founders?</span>
+              <span class="faq-arrow" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-body">
+              <p>Both. I've shipped solo for early-stage founders and joined existing teams as a senior engineer. Whatever the setup needs.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span>Can you take over an existing codebase?</span>
+              <span class="faq-arrow" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-body">
+              <p>Yes — I love refactors. I'll start with a quick audit, agree on priorities, then ship improvements without breaking things.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span>Do you offer post-launch support?</span>
+              <span class="faq-arrow" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-body">
+              <p>Always. Every project includes a 30-day support window, and I offer monthly retainers for ongoing work.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span>What's the best way to get in touch?</span>
+              <span class="faq-arrow" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-body">
+              <p>Discord is fastest — add me at <a href="https://discord.com/users/_7j" target="_blank" rel="noopener noreferrer"><strong>_7j</strong></a> and tell me about your project.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+    </main>
+
+    <nav class="side-dots" id="sideDots" aria-label="Section navigation">
+      <a href="#home" data-section="home" class="side-dot active" data-label="Home"></a>
+      <a href="#about" data-section="about" class="side-dot" data-label="About"></a>
+      <a href="#services" data-section="services" class="side-dot" data-label="Services"></a>
+      <a href="#process" data-section="process" class="side-dot" data-label="Process"></a>
+      <a href="#projects" data-section="projects" class="side-dot" data-label="Projects"></a>
+      <a href="#testimonials" data-section="testimonials" class="side-dot" data-label="Reviews"></a>
+      <a href="#packages" data-section="packages" class="side-dot" data-label="Pricing"></a>
+      <a href="#faq" data-section="faq" class="side-dot" data-label="FAQ"></a>
+    </nav>
+
+    <button class="theme-fab" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-fab-track">
+        <span class="theme-fab-thumb">
+          <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="12" y1="2" x2="12" y2="4"></line><line x1="12" y1="20" x2="12" y2="22"></line><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line><line x1="2" y1="12" x2="4" y2="12"></line><line x1="20" y1="12" x2="22" y2="12"></line><line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line><line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line></svg>
+          <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </span>
+        <span class="theme-fab-icons" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="12" y1="2" x2="12" y2="4"></line><line x1="12" y1="20" x2="12" y2="22"></line><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line><line x1="2" y1="12" x2="4" y2="12"></line><line x1="20" y1="12" x2="22" y2="12"></line><line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line><line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </span>
+      </span>
+    </button>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
